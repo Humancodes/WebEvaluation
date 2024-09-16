@@ -2,10 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
-
-.my-font {
+/* blue */
+/* color: #423f8d; */
+/* pink */
+/* #ED078B */
+/* .my-font {
   font-family: "Concert One", cursive;
+} */
+.my-font2 {
+  font-family: sans-serif;
 }
 
 .main-color {
@@ -15,19 +22,161 @@
 .navbar {
   display: flex;
   align-items: center;
+  height: 80px;
   justify-content: space-around;
 }
 
 .nav-items {
   display: flex;
+  align-items: center;
 }
 
 .nav-item {
-  padding: 0 10px;
+  color: #423f8d;
+  font-family: "Concert One", cursive;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .enroll-btn {
   border: none;
-  background-color: #12d9df;
+  background-color: #13cad1;
   color: white;
+  margin-left: 20px;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+  margin: auto;
+}
+.hero-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  text-align: center;
+  margin: 40px 0;
+}
+.hero-head {
+  color: #423f8d;
+  font-family: "Concert One", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.hero-sp {
+  color: #ed078b;
+}
+.hero-desc {
+  font-family: "DM Sans", sans-serif;
+  color: #4255a4;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+.hero-box2 {
+  display: flex;
+  gap: 50px;
+}
+.hero-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.hp-box {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+/* .hp-img {
+} */
+.hp-inner-box {
+  width: 50%;
+  margin: 0 20px;
+  line-height: 1.5;
+}
+.hp-head {
+  font-size: 25px;
+  font-family: "Concert One", cursive;
+  font-weight: 800;
+  color: #1f97d4;
+}
+.hp-head1 {
+  font-size: 25px;
+  font-family: "Concert One", cursive;
+  font-weight: 800;
+  color: #fbce0f;
+}
+.hp-head2 {
+  font-size: 25px;
+  font-family: "Concert One", cursive;
+  font-weight: 800;
+  color: #12d9df;
+}
+.hp-desc {
+  font-family: "DM Sans", sans-serif;
+  color: #4255a4;
+  font-size: 15px;
+}
+.hero-img {
+  width: 400px;
+}
+
+/* CLASES TO OFFER */
+
+.class-we-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  width: 100%;
+  margin: auto;
+}
+.cw-head {
+  color: #423f8d;
+  font-family: "Concert One", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.cw-desc {
+  font-family: "DM Sans", sans-serif;
+  color: #4255a4;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  width: 60%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cw-cards {
+}
+.cw-card {
+}
+.cw-card-box {
+}
+.card-title {
+}
+.card-desc {
+}
+.card-det {
+}
+.cd-title {
+}
+.cd-des {
 }
