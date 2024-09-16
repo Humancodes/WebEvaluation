@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-font {
+  font-family: "Concert One", cursive;
+}
+
+.main-color {
+  color: #12d9df;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.enroll-btn {
+  border: none;
+  background-color: #12d9df;
+  color: white;
+}
